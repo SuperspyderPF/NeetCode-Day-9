@@ -1,0 +1,1 @@
+findDisappearedNumbers = (n,ar = Array.from({ length: n.length }, (_, i) => i+1)) => ar.filter(x => !n.includes(x))
